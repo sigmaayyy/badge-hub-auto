@@ -66,7 +66,7 @@ local function enterKey()
     local correctKey = "KEY_ee9eced4c241419e90131fa8446b5bb6"
 
     if userInputKey == correctKey then
-        local scriptURL = "scriptlink"
+        local scriptURL = "https://raw.githubusercontent.com/sigmaayyy/badge-autofarm-hub/refs/heads/main/source.lua"
         local success, result = pcall(function()
             return loadstring(game:HttpGet(scriptURL))()
         end)
